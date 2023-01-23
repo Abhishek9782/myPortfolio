@@ -129,3 +129,182 @@
     height: 118vh;
   }
 }
+
+/* ------------Here we are doing for 390px mobile view port --------- */
+@media screen and (max-width: 390px) {
+  .main > nav > .components {
+    margin-right: 0px;
+  }
+  .about {
+    height: 143vh;
+  }
+}
+/* --------here all csss for 393px mobile display------------ */
+@media screen and (max-width: 393px) {
+  .main > nav > .components {
+    margin-right: 0px;
+  }
+  .about {
+    height: 143vh;
+  }
+}
+
+/*  ------------Here all csss for 360px for mobile display---------  */
+@media screen and (max-width: 360px) {
+  .main {
+    height: 71vh;
+  }
+  .main > nav > .components {
+    margin-right: 0px;
+  }
+  .main > nav > .components > ul > li {
+    padding: 0px 2px;
+  }
+  .content > .abhi {
+    height: 462px;
+  }
+  .main > .content > .abhi > img {
+    position: absolute;
+    top: 111px;
+    left: 119px;
+    z-index: -1;
+    width: 150px;
+  }
+  .about {
+    height: 187vh;
+  }
+  .skills {
+    height: 118vh;
+  }
+  .contact {
+    height: 85vh;
+  }
+}
+
+/* ------ Here all css for 412 samsung galaxy s20 ultra mobile ---- */
+@media screen and (max-width: 412px) {
+  .contact {
+    height: 115vh;
+  }
+}
+
+/*  ---------- Here all css for i pad air 820 px csss --------- */
+@media screen and (max-width: 820px) {
+  .main {
+    height: 50vh;
+  }
+  .abhi > img {
+    width: 300px;
+    right: 2vw !important ;
+  }
+  .skills {
+    height: 40vh;
+  }
+  .contact {
+    height: 85vh;
+  }
+  .skills > .all_skills {
+    margin-top: 0px;
+  }
+}
+
+/* -------------here we use surface pro  7 mobile csss---------- */
+@media screen and (max-width: 912px) {
+  .main {
+    height: 42vh;
+  }
+  .skills {
+    height: 35vh;
+  }
+  .skills > .all_skills {
+    margin-top: 50px;
+  }
+  .contact {
+    height: 80vh;
+  }
+}
+
+/* ---------Here we are just doing for surface duo 540px -------  */
+@media screen and (max-width: 540px) {
+  .main {
+    height: 65vh;
+  }
+  .main > nav > .components {
+    width: 276px;
+    display: flex;
+    justify-content: start;
+    margin-right: 0px;
+    margin-left: 75px;
+  }
+  .main > nav > .components > ul > li {
+    padding: 0px 9px;
+  }
+  .main > .content > .abhi > .h2,
+  .interest {
+    left: 7vw;
+  }
+  .main > .content > .abhi > .btn-top {
+    margin-left: 10vw;
+  }
+  .abhi > img {
+    width: 263px;
+    right: -3vw !important;
+  }
+  .about > .graduation > .hg > h3 {
+    font-size: 23px;
+    margin-top: 57px;
+    margin-bottom: 35px;
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .about > .graduation > .hg > h2 {
+    text-align: center;
+    margin-top: 74px;
+    margin-left: 0px;
+  }
+  .about > .graduation > .hg > ul > li {
+    font-family: "Noto Serif", serif;
+    margin-left: 104px;
+    margin-top: 15px;
+  }
+  .about > .graduation > .hg > h3 {
+    margin-left: 0px !important;
+  }
+  .about {
+    height: 150vh;
+  }
+  .skills > h2 {
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-size: 34px;
+    margin: 10px 0px;
+  }
+  .skills {
+    height: 105vh;
+  }
+  .skills > .all_skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills > .all_skills > .nontech {
+    margin-top: 20px;
+  }
+  .contact {
+    height: 100vh;
+  }
+  .contact > h3 {
+    margin-left: 0px;
+  }
+  .contact > .add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact > .add > .address {
+    margin: 40px 50px;
+  }
+}
