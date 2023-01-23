@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+@media screen and (max-width: 414px) {
+  .main {
+    width: 100%;
+    height: 60vh;
+  }
+  .main > nav > .logo {
+    margin: 0px 5px;
+    font-size: 18px;
+  }
+  .main > nav > .components {
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: start;
+  }
+  .main > nav > .components > ul > li {
+    padding: 0px 9px;
+  }
+  .main > .content > .abhi > .interest {
+    margin-left: 10px;
+  }
+  .content > .abhi {
+    /* background-color: red; */
+    width: 50%;
+    height: 537px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main > .content > .abhi > .h2,
+  .interest {
+    font-family: "Noto Serif", serif;
+    color: black;
+    position: relative;
+    top: 167px;
+    left: 0px;
+  }
+  .main > .content > .abhi > .btn-top {
+    margin: 0px;
+  }
+  .main > .content > .abhi > img {
+    position: absolute;
+    top: 136px;
+    left: 150px;
+    z-index: -1;
+    width: 150px;
+  }
+
+  .about > .graduation > .hg > ul > li {
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 37px;
+    font-size: 13px;
+    margin-left: 0px !important;
+  }
+  .about {
+    height: 135vh;
+  }
+  .skills {
+    height: 86vh;
+  }
+  .skills > h2 {
+    margin-top: 30px;
+  }
+  .skills > .all_skills {
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .skills > .all_skills > .nontech {
+    margin-top: 40px;
+  }
+  .contact {
+    height: 115vh;
+  }
+  .contact > h3 {
+    margin-left: 0;
+  }
+  .contact > .add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact > .add > .address {
+    margin: 45px 50px;
+  }
+}
