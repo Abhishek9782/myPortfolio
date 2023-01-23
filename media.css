@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 
+/* ----------------Here css for 414 px type mobile--------------------- */
 @media screen and (max-width: 414px) {
   .main {
     width: 100%;
@@ -97,5 +98,34 @@
   }
   .contact > .add > .address {
     margin: 45px 50px;
+  }
+}
+
+/* -------------- Here We add csss for 375 all Mobiles---------------- */
+@media screen and (max-width: 375px) {
+  .main {
+    height: 71vh;
+  }
+  .main > nav > .components {
+    margin-right: 0px;
+  }
+  .main > nav > .components > ul > li {
+    padding: 0px 6px;
+  }
+  .content > .abhi {
+    height: 462px;
+  }
+  .main > .content > .abhi > img {
+    position: absolute;
+    top: 111px;
+    left: 119px;
+    z-index: -1;
+    width: 150px;
+  }
+  .about {
+    height: 187vh;
+  }
+  .skills {
+    height: 118vh;
   }
 }
