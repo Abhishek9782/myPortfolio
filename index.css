@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  height: 100vh;
+  /* background-color: #ffffff; */
+}
+
+.main > nav {
+  display: flex;
+  padding: 30px 0px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.main > nav > .components {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 64px;
+}
+.main > nav > .components > ul > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 23px;
+  font-family: "Lora", serif;
+}
+.main > nav > .components > ul > li > a {
+  text-decoration: none;
+  color: white;
+  scroll-behavior: smooth;
+}
+.main > nav > .components > ul > li:hover {
+  border-bottom: 2px solid rgb(105, 102, 102);
+  border-radius: 10px;
+}
+.main > nav > .logo {
+  margin: 0px 26px;
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+}
+.content > .abhi {
+  /* background-color: red; */
+  width: 75%;
+  height: 537px;
+  margin-top: 83px;
+  font-size: 28px;
+}
+.main > .content > .abhi > .h2,
+.interest {
+  font-family: "Noto Serif", serif;
+  color: black;
+  position: relative;
+  top: 167px;
+  left: 13vw;
+}
+.main > .content > .abhi > .interest {
+  margin-left: 10px;
+}
+.main > .content > .abhi > .interest > span {
+  color: #000097;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.main > .content > .abhi > .btn-top {
+  margin-left: 14vw;
+}
+.main > .content > .abhi > .btn-top > a > .btn {
+  margin-top: 181px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-family: "Kanit", sans-serif;
+  transition: all 0.8s ease;
+}
+.main > .content > .abhi > .btn-top > a > .btn:hover {
+  background-color: black;
+  color: white;
+}
+.main > .content > .abhi > img {
+  position: absolute;
+  top: 136px;
+  right: 10vw;
+  z-index: -1;
+}
+.about {
+  padding: 10px 0px;
+  background-color: rgb(31, 29, 29);
+  color: white;
+}
+.about > .head > h2 {
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  font-size: 35px;
+  margin-top: 100px;
+}
+.about > .graduation > .hg > h3 {
+  font-size: 23px;
+  margin-top: 57px;
+  margin-bottom: 35px;
+  margin-left: 137px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.about > .graduation > .hg > p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Source Code Pro", monospace;
+
+  margin: 0px 10vw;
+}
+.about > .graduation > .hg > ul > li > span {
+  font-weight: bold;
+}
+.about > .graduation > .hg > h2 {
+  margin-left: 137px;
+  margin-top: 74px;
+}
+.about > .graduation > .hg > ul > li {
+  font-family: "Noto Serif", serif;
+  margin-left: 157px;
+}
+.about > .graduation > .hg > ol > li {
+  margin-left: 157px;
+  font-family: "Noto Serif", serif;
+}
+/*  Skills css here */
+.skills {
+  height: 100vh;
+  width: 100%;
+}
+.skills > h2 {
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  font-size: 34px;
+  margin: 10px 0px;
+  margin-top: 100px;
+}
+.skills > .all_skills {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.skills > .all_skills > .techskills {
+  background-color: rgb(203, 199, 199);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.skills > .all_skills > .techskills > ul {
+  margin-left: 51px;
+  margin-top: 10px;
+}
+hr {
+  opacity: 35%;
+}
+.skills > .all_skills > .nontech {
+  background-color: rgb(203, 199, 199);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.skills > .all_skills > .nontech > ul {
+  margin-left: 40px;
+}
+
+.contact > .add {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact > .add > .address > p {
+  margin: 10px 0px;
+}
+.contact > h3 {
+  font-size: 34px;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  margin-left: 85px;
+}
+.contact > .add > .address {
+  /* border: 1px solid black; */
+  margin: 70px 50px;
+}
+
+.contact > .add > .address > p > span {
+  font-weight: bold;
+}
+.contact > .add > .address > p > a {
+  text-decoration: none;
+}
+.my-projects > a {
+  text-decoration: none;
+  color: black;
+}
+.my-projects > a:hover {
+  text-decoration: underline;
+  color: blue;
+}
