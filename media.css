@@ -110,7 +110,7 @@
     margin-right: 0px;
   }
   .main > nav > .components > ul > li {
-    padding: 0px 6px;
+    padding: 0px 2px !important;
   }
   .content > .abhi {
     height: 462px;
@@ -123,10 +123,15 @@
     width: 150px;
   }
   .about {
-    height: 187vh;
+    height: 187vh !important;
   }
   .skills {
     height: 118vh;
+  }
+}
+@media screen and (min-width: 384px) {
+  .main > nav > .components > ul > li {
+    padding: 0px 4px !important;
   }
 }
 
@@ -155,10 +160,14 @@
     height: 71vh;
   }
   .main > nav > .components {
+    width: 276px;
+    display: flex;
+    justify-content: start;
     margin-right: 0px;
+    margin-left: 45px !important;
   }
   .main > nav > .components > ul > li {
-    padding: 0px 2px;
+    padding: 0px 2px !important;
   }
   .content > .abhi {
     height: 462px;
@@ -234,7 +243,7 @@
     display: flex;
     justify-content: start;
     margin-right: 0px;
-    margin-left: 75px;
+    margin-left: 45px;
   }
   .main > nav > .components > ul > li {
     padding: 0px 9px;
@@ -306,5 +315,13 @@
   }
   .contact > .add > .address {
     margin: 40px 50px;
+  }
+  .about > .graduation > .hg > ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about > .graduation > .hg > ol > li {
+    margin-left: 0px;
   }
 }
